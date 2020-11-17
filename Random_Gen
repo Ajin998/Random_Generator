@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random_Details_Generator</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"
+      integrity="sha512-/seDHxVfh1NvFUscAj8GsHQVZJvr2jjAoYsNL7As2FCaFHUHYIarl3sRCvVlFgyouVNiRgHIebyLKjpgd1SLDw=="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <center>
+      <h1>Random Details Generator</h1>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label>Name:-</label>
+        <input type="text" id="Name" /><br />
+        <br />
+        <br />
+
+        <label>Email:-</label>
+        <input type="email" id="email" style="width: 20%" /><br />
+        <br />
+        <br />
+
+        <label>Phone Number:-</label>
+        <input type="tel" id="phoneNumber" /><br />
+        <br />
+        <br />
+
+        <label>Mood Level:-</label>
+        <input type="range" id="age" /><br /><br />
+        <br />
+        <br />
+
+        <label>Country:-</label>
+        <input type="text" id="address" /><br />
+        <br />
+        <br />
+
+        <label>Country Code:-</label>
+        <input type="text" name="timezone" id="countrycd" />
+      </fieldset>
+      <br />
+      <br />
+      <br />
+
+      <button style="outline: ridge green; width: 10%">Let's Fake It!</button>
+    </center>
+    <script src="./practise.js"></script>
+  </body>
+</html>
